@@ -1,0 +1,780 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.shape{
+    font-family: "Sevillana", cursive;
+    /* font-family: "Playwrite CL", cursive; */
+
+}
+
+/* shared style */
+
+.primary-color{
+    background-color: rgb(230, 83, 60);
+
+}
+
+.container{
+
+width: 80%;
+margin: 6rem auto;
+}
+
+/* nav section start */
+
+.nav-container{
+    width: 80%;
+    height: 2.8rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.822);
+    margin-top: 3.5rem;
+}
+
+
+.nav-container h1{
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+font-weight: 800;
+}
+
+
+.nav-option{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-option button{
+    border-radius: 39px;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: transparent;
+}
+
+.nav-btn{
+    background-color: rgb(230, 83, 60);
+    border-radius: 39px;
+   
+}
+
+.ham-burger{
+    color: white;
+    display: none;
+}
+
+/* banner section start */
+
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, black 0%, rgb(19, 18, 18) 50%, black 100%);
+    
+}
+.banner-text-content{
+   
+    color: white;
+    width: 40%;
+}
+
+.banner-text-content h1{
+font-size: 4.8rem;
+font-weight: 900;
+}
+
+.banner-text-content p{
+    margin-top: 1.75rem;
+font-size: 1rem;
+font-weight: 400;
+}
+
+.banner-btn button{
+    width: 14rem;
+    height: 3.3rem;
+   margin-top: 1.75rem;
+    padding: 1rem 2.5rem;
+    border-radius: 2.5rem;
+    font-size: 1.2rem;
+font-weight: 600;
+color: white;
+}
+
+.banner-1st-btn{
+background-color: rgb(230, 83, 60); 
+border: none; 
+}
+
+.banner-2nd-btn{
+    background-color: transparent;
+    border: 2px solid rgb(193, 194, 193);
+}
+
+.banner-img{
+    width: 30%;
+    height: 36.2rem;
+ 
+    position: relative;
+    margin-right: 7%;
+}
+
+.banner-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.banner-circle{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    margin-right: 1rem;
+}
+
+.banner-350, .banner-500{
+    width: 12.8rem;
+height: 6rem;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background-color: rgba(48, 48, 48, 0.54);
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 70%;
+right: 75%;
+}
+
+.banner-500{
+    top: 18%;
+    left: 60%;
+    width: 13rem;
+height: 6.2rem;
+}
+
+.banner-500 h3{
+    font-size: 2rem;
+    color: white;
+}
+
+
+.banner-350 h3{
+font-size: 1.5rem;
+color: white;
+}
+
+
+.banner-350 p, .banner-500 p{
+    font-size: 1rem;
+    color: rgb(196, 192, 192);
+    }
+
+    /* habit section start */
+
+    .change-habit-container{
+        margin-top: 2rem;
+    
+        text-align: center;
+    
+
+    }
+
+    .change-habit-container h1{
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+    }
+
+
+    .change-habit-container p{
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgb(196, 192, 192);
+
+    }
+
+  .habit-content{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .habit-card{
+    width: 14rem;
+height: 17rem;
+
+  }
+    .habit-card img{
+        border-radius: 50%;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .habit-card p{
+        color: rgb(196, 192, 192);
+        margin-top: 0.5rem;
+    }
+
+    /* run section start */
+
+    .run-sectin-container{
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        padding: 3.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .run-text-content{
+        width: 40%;
+    }
+
+    .run-text-content h1, .team-section-container h1{
+    font-size: 48px;
+    font-weight: 900;
+    }
+
+    .run-text-content p, .team-section-container p{
+        color: rgb(196, 192, 192);
+        margin-top: 0.5rem;
+    }
+    .run-text-content button{
+        width: 13rem;
+        height: 3.3rem;
+       margin-top: 1.75rem;
+        padding: 1rem 2.5rem;
+        border-radius: 2.5rem;
+        font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 5.4rem;
+    }
+
+
+
+    .run-img{
+        width: 35%; 
+    }
+    .run-img img{
+        width: 100%;
+        border-radius: 18px;
+        object-fit: none;
+        object-position: 69% 30%;   
+    }
+
+
+
+    /* Calculator section */
+
+    .calculator-context{
+        text-align: center;
+    }
+
+    .calculator-context h1{
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .calculator-container{
+      
+        padding: 3rem 0;
+        background-color: rgb(34, 34, 34);
+        margin-top: 5rem;
+      
+    }
+
+    .calculator-box{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .calculator-box1{
+        width: 35%;
+  
+     
+    }
+    .calculator-box1 h3, .calculator-box2 h3{
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+
+    table{
+        border-collapse: collapse;
+       margin-top: 3.5rem;
+    }
+
+    td,th{
+        border: 1px solid rgb(116, 113, 113);
+        padding: 0.7rem 1rem;
+        text-align: left;
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+    th{
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    .calculator-box2{
+        width: 40%;
+       
+    }
+
+    .calculator-box2 h3{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+
+    .calculator-box2 p{
+      color: rgb(196, 192, 192);
+      font-size: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .input-context{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    .color-placeholder::placeholder {
+        color: white;
+   
+    }
+
+    .input-context input, select{
+       border-radius: 0.5rem;
+       height: 3rem;
+       font-size: 1.2rem;
+       background-color: rgb(95, 93, 93);
+       border: none;
+       color: white;
+    }
+
+
+    .factor select{
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .calculator-btn{
+        width: 14rem;
+        height: 3.3rem;
+       margin-top: 2.15rem;
+        padding: 1rem 2.5rem;
+        border-radius: 2.5rem;
+        font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(230, 83, 60); 
+border: none; 
+
+    }
+
+   
+  
+  
+
+    /* team member section */
+
+    .team-section-container{
+        margin: 3rem auto;
+        text-align: center;
+        
+    }
+
+    .team-text-context{
+        margin-bottom: 5rem;
+    }
+
+    .team-section-container h1{
+        margin-bottom: 2rem;
+
+    }
+
+    .team-content{
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+  
+        padding: 3rem;
+    
+      
+    }
+
+    .team-card{
+      
+        position: relative;
+        width: 95%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .team-card::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2); 
+    }
+
+    .team-card img{
+        width: 100%;
+        height: 100%;
+        border-radius: 18px;
+    }
+.card-context{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+.card-context p{
+    text-align: start;
+}
+
+/* client section start */
+
+.clinet-context{
+    text-align: center;
+}
+
+.clinet-context h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.client-card{
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(43, 42, 42);
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 80%;
+}
+
+.clinet-context p{
+    color: rgb(196, 192, 192);
+      font-size: 1rem;
+      margin-bottom: 2.5rem;
+     
+}
+
+.client-card1{
+    width: 35%;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    color: rgb(196, 192, 192);
+}
+
+.client-card1 i{
+    color: orangered;
+    margin: 0 auto;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+.client-img img{
+    border-radius: 70% 0 0 ;
+    width: 100%;
+}
+
+.client-img2 img{
+ 
+    width: 100%;
+}
+
+.client-img3 img{
+    border-radius: 0 70% 0 0 ;
+    width: 100%;
+}
+.client-name{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.client-name span{
+    color: orangered;
+    font-size: 1.5rem;
+}
+
+.client-name p{
+    font-size: 1.5rem;
+}
+
+
+
+/* footer section */
+
+footer{
+ padding: 5rem 12rem;
+ background-color: rgba(255, 255, 255, 0.1);
+margin-top: 6rem;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.context-logo{
+    width: 40%;
+}
+
+.context-logo h1{
+color: rgb(230, 83, 60);
+    font-size: 4rem;
+font-weight: 800;
+
+}
+
+.context-logo p{
+    line-height: 2rem;
+    color: rgb(196, 192, 192);
+    margin-top: 1rem;
+}
+
+.footer-context h3{
+font-size: 1.7rem;
+margin-bottom: 1.5rem;
+}
+
+
+.footer-context p{
+    font-size: 1rem;
+    color: rgb(196, 192, 192);
+    line-height: 2rem;
+    }
+
+    hr{
+        margin-top: 5rem;
+    }
+
+    .copyright{
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 1.2rem;
+font-weight: 400;
+font-size: 20px;
+color: rgb(196, 192, 192);
+font-weight: 400;
+    }
+
+
+
+
+@media screen and (max-width: 576px) {
+    .nav-container{
+     padding: 0 0.54rem;
+     width: 90%;
+    }
+
+    .nav-option{
+        display: none;
+    }
+    
+    .ham-burger{
+        display: block;
+    }
+
+    /* banner section */
+.container{
+    width: 95%;
+}
+
+.banner-container{
+    flex-direction: column;
+}
+
+.banner-text-content{
+
+    color: white;
+    width: 100%;
+}
+
+.banner-text-content h1{
+    font-size: 4rem;
+    }
+.banner-btn{
+    display: flex;
+    gap: 1rem;
+}
+.banner-btn button{
+width: 10rem;
+font-size: 0.8rem;
+padding: 1rem;
+
+}
+
+.banner-img{
+    width: 80%;
+    margin: 2rem auto;
+   
+}
+
+.banner-350, .banner-500{
+right: 45%;
+}
+
+.banner-500{
+    top:10%;
+    left: 55%;
+    width: 11rem;
+}
+
+/* habit section */
+.habit-content{
+ flex-direction: column;
+  }
+
+  .habit-card{
+    margin-top: 4rem;
+   }
+ 
+
+   /* run section */
+   .run-sectin-container{
+    flex-direction: column;
+    padding: 25px;
+}
+
+.run-text-content{
+    width: 100%;
+}
+
+.run-img{
+    width: 100%;
+    margin-top: 2rem; 
+}
+
+.run-img img{
+    width: 100%;
+    border-radius: 18px;
+    object-fit: contain;
+    object-position: 69% 30%;   
+}
+.run-text-content button{
+    width: 15rem;
+   margin-top: 1.75rem;
+  margin: 1rem auto 0;
+}
+.run-btn{
+    display: flex;
+  
+}
+
+   /* calculator section */
+
+   .calculator-box{
+    flex-direction: column;
+}
+
+.calculator-container{
+
+    padding: 3rem 0;
+  
+}
+
+.calculator-box1{
+    width: 100%;
+    border: none;
+
+}
+.calculator-context{
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.calculator-box2{
+    width: 100%;
+    border: none;
+
+}
+
+
+.input-context input, select{
+  width: 100%;
+ }
+
+
+.calculator-box2{
+   margin-top: 3rem;
+}
+
+/* team section */
+
+.team-content{ 
+    grid-template-columns: repeat(1, 1fr);
+   
+}
+
+/* client section start */
+
+.client-card{
+    flex-direction: column;
+}
+
+.client-card1{
+    width: 100%;
+  
+}
+
+.client-card1{
+   margin-bottom: 2rem;
+}
+
+/* footer section */
+
+.footer-container{
+    flex-direction: column;
+}
+
+.context-logo{
+    width: 100%;
+}
+
+footer{
+ padding: 0.8rem;
+}
+
+.footer-context{
+margin-top: 2rem;
+}
+
+.copyright{
+    margin-bottom: 3rem;
+    
+}
+
+}
