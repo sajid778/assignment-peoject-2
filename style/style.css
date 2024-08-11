@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&display=swap'); */
+@import url('https://fonts.cdnfonts.com/css/miama');   
+
 *{
     margin: 0;
     padding: 0;
@@ -14,9 +14,9 @@ body{
 }
 
 .shape{
-    font-family: "Sevillana", cursive;
-    /* font-family: "Playwrite CL", cursive; */
-
+    font-family: 'Miama', sans-serif;
+    font-size: 6rem;
+                                            
 }
 
 /* shared style */
@@ -426,17 +426,15 @@ border: none;
         background: rgb(34, 34, 34);
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-  
         padding: 3rem;
-    
+        gap: 2rem;
       
     }
 
     .team-card{
-      
         position: relative;
-        width: 95%;
-        height: auto;
+        width: 100%;
+        height: 100%;
         margin-bottom: 2rem;
     }
 
@@ -448,12 +446,13 @@ border: none;
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.2); 
+        border-radius: 18px;
     }
 
     .team-card img{
         width: 100%;
         height: 100%;
-        border-radius: 18px;
+        border-radius: 18px;    
     }
 .card-context{
     position: absolute;
@@ -480,6 +479,7 @@ border: none;
     display: flex;
     gap: 1rem;
     background-color: rgb(43, 42, 42);
+    margin: 0 auto;
     border-radius: 2rem;
     padding: 1rem;
     width: 80%;
@@ -736,8 +736,13 @@ right: 45%;
 
 .team-content{ 
     grid-template-columns: repeat(1, 1fr);
-   
+
 }
+
+.team-card{
+    height: 20rem;
+}
+
 
 /* client section start */
 
