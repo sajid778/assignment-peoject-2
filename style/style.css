@@ -34,6 +34,10 @@ margin: 6rem auto;
 
 /* nav section start */
 
+header{
+    background: linear-gradient(to bottom, black 0%, rgb(19, 18, 18) 50%, black 100%);
+}
+
 .nav-container{
     width: 80%;
     height: 2.8rem;
@@ -89,7 +93,7 @@ font-weight: 800;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to bottom, black 0%, rgb(19, 18, 18) 50%, black 100%);
+    
     
 }
 .banner-text-content{
@@ -194,10 +198,7 @@ color: white;
 
     .change-habit-container{
         margin-top: 2rem;
-    
         text-align: center;
-    
-
     }
 
     .change-habit-container h1{
@@ -656,11 +657,22 @@ right: 45%;
 /* habit section */
 .habit-content{
  flex-direction: column;
+
   }
 
   .habit-card{
     margin-top: 4rem;
    }
+
+   .change-habit-container h1{
+    font-size: 2rem;
+}
+
+.change-habit-container{
+    margin-top: 1rem;
+}
+
+
  
 
    /* run section */
