@@ -667,14 +667,6 @@ right: 45%;
    .change-habit-container h1{
     font-size: 2rem;
 }
-
-.change-habit-container{
-    margin-top: 1rem;
-}
-
-
- 
-
    /* run section */
    .run-sectin-container{
     flex-direction: column;
@@ -755,6 +747,23 @@ right: 45%;
     height: 20rem;
 }
 
+.block-card{
+    display: none;
+}
+
+.card-3{
+    order: 2;
+
+}
+
+.card-4{
+    order: 1;
+}
+
+
+.card-6{
+    order: 3;
+}
 
 /* client section start */
 
